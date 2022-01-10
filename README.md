@@ -5,20 +5,27 @@
    * GIT
    * NPM
    * Express intro
-* [Week 2](week2.md)
+   * pug
+* Week 2 (oma assignments)
+   * DOM
+   * AJAX
+   * events
+* [Week 3](week3.md)
    * REST
    * Routing
    * Middleware
    * [Tunnel to mysql.metropolia.fi](mysql+tunneling.md)
    * Database connection, create, read, update, delete
-* [Week 3](week3.md)
-   * Remote server
+* [Week 4](week4.md)
+   * Remote server installation
+* [Week 5](week5.md)
    * Data validation
    * Cookies
    * Session
-* [Week 4](week4.md)
+* [Week 6](week6.md)
    * Authentication
    * JWT
-* [Week 5](week5.md)
+* [Week 7](week7.md)
    * Security
    * Other 3rd party libraries
+* Week 8 (To be Defined later)
