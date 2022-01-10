@@ -12,7 +12,7 @@ node my-script.js
 ```
 
 ### Exercise
-Create a folder `node` in `week1`. In the folder create file `script.js` that logs 'This is JavaScript' to console, and run it.
+Create a folder `node` in `week1` (or first the remote repository in [gitlab](https://gitlab.metropolia.fi) and clone). In the folder create file `script.js` that logs 'This is JavaScript' to console, and run it.
 
 ## npm
 * npm (Node Package Manager) is the package manager for Node.js
@@ -28,7 +28,7 @@ npm install -g npm
 ## Global v.s. local packages
 Global packages:
 
-* Installed [globally](https://docs.npmjs.com/downloading-and-installing-packages-globally) with -g switch for npm install
+* Installed [globally](https://docs.npmjs.com/downloading-and-installing-packages-globally) with `-g` switch for npm install
 * Provide some command-line commands
 * e.g.
   ```bash
@@ -39,7 +39,7 @@ Global packages:
 Local packages
 
 * Installed [locally](https://docs.npmjs.com/downloading-and-installing-packages-locally) to the node_modules folder under current application folder
-* Available only for the current project with require
+* Available only for the current project with `require`
 * e.g.
   ```bash
   npm install underscore
@@ -55,7 +55,7 @@ Install [nodemon](https://nodemon.io/) globally (package name: nodemon) and use 
    * Windows might give 'running scripts is disabled...' error. Fix: open Windows PowerShell as admin then run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 #### Local package
-Install [lodash](https://lodash.com/) locally and use it to convert 'Foo Bar' to camel case. Modify `script.js` and log the result to console.
+Install [lodash](https://lodash.com/) locally and use it to convert 'Foo Bar baz' to camel case. Modify `script.js` and log the result to console.
 
 ## Package.json
 * JSON file to define an [npm project](https://docs.npmjs.com/creating-a-package-json-file)
@@ -122,6 +122,7 @@ npm run create-some-folder
 Certain scripts (e.g. `start` and `test`) are available without the `run`, for example:
 ```bash
 npm start
+# same as
 npm run start
 ```
 ### Exercise
