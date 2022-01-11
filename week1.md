@@ -16,7 +16,7 @@
             ssh metropolia-username@shell.metropolia.fi
             pwd
          ```
-         Then, in your file explorer open location `ssh://shell.metropolia.fi/homeX-Y/Z/metropolia-username` (where /homeX-Y/Z/metropolia-username is the result of `pwd`)
+         Then, in your file explorer open location `ssh://shell.metropolia.fi/homeX-Y/Z/metropolia-username` (where `/homeX-Y/Z/metropolia-username` is the result of `pwd`)
     * App for testing REST API: [Postman](https://www.postman.com/downloads/) or [Insomnia](https://insomnia.rest/download)
       * thre is also a [VSCode Plugin](https://blog.bitsrc.io/vs-codes-rest-client-plugin-is-all-you-need-to-make-api-calls-e9e95fcfd85a)
     * [Node.js](https://nodejs.org/en/) LTS version

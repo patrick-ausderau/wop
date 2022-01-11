@@ -6,7 +6,7 @@
    * NPM
    * Express intro
    * pug
-* Week 2 (oma assignments)
+* Week 2 - Front-end (oma assignments)
    * DOM
    * AJAX
    * events
