@@ -1,4 +1,4 @@
-# Week 4
+# Week 6 - Passport, JWT
 Now we start to make our REST API to follow the [second version of the API Documentation](apiDoc-v0.2.md)
 ## Authentication with [passport.js](http://www.passportjs.org/docs/downloads/html/)
 1. Setup
@@ -123,7 +123,7 @@ Now we start to make our REST API to follow the [second version of the API Docum
 * The following task is based on [this](https://medium.com/front-end-weekly/learn-using-jwt-with-passport-authentication-9761539c4314) article
 
 1. Setup
-   * Continue the app started on week 3. You should be now in `week3` branch. Make sure you have committed all files (`git status`) then create new branch `week4`
+   * Continue the app started on week 3. You should be now in `validation` branch. Make sure you have committed all files (`git status`) then create new branch e.g. `jwt`
    * Install passport, passport-local, passport-jwt and jsonwebtoken `npm i passport passport-local passport-jwt jsonwebtoken`
 
 2. Create a function getUserLogin to `./models/userModel.js`

@@ -1,4 +1,4 @@
-# Week 3
+# Week 5 - Validation, Cookies, Session
 ## Data Validation
 * Study [client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
 * Read this article about [server-side data validation](https://medium.com/@BaYinMin/application-security-what-is-server-side-input-validation-why-is-it-needed-anyway-e0613c733548)
@@ -12,7 +12,7 @@
    * [Online tester](https://regex101.com/)
 
 1. HTML5 Built-in form validation
-   * Continue last week's exercise. Make sure you have committed previous git branch then create new branch `week3`
+   * Continue Rest exercise. Make sure you have committed and pushed previous git branch then create new branch e.g. `validation`
    * In `wop-ui/ui2` there are HTML files with forms for adding user, adding cat and modifying cat
    * Add the following validation properties:
       * Add user

@@ -1,6 +1,6 @@
 <!-- TODO: async/await bcrypt.genSalt and bcrypt.hash -->
 <!-- TODO: exif, console.error(error) but resolve([0,0]) instead of reject -->
-# Week 5
+# Week 7 - Security intro
 
 ## HTTPS
 
@@ -24,9 +24,10 @@ $ openssl req -new -key ssl-key.pem -out certrequest.csr
 $ openssl x509 -req -in certrequest.csr -signkey ssl-key.pem -out ssl-cert.pem
 ```
 
+* Continue the app started on week 3. You should be now in `jwt` branch. Make sure you have committed all files (`git status`) then create new branch e.g. `security`
 * Put the keys and certificate in the app folder and make sure to **add them in .gitignore** too!
   * Alternative, put the keys and certificate outside the app folder and use relative (e.g. ../certs/) or absolute (e.g. /etc/pki/tls/certs/) path to them
-* In case missing, install file sync: `npm i fs`
+* Install file sync: `npm i fs`
 
 ```javascript
 'use strict';
@@ -170,7 +171,6 @@ app.get('/', (req, res) => {
 
 ### Bcrypt
 1. Setup
-   * Continue the app started on week 3. You should be now in `week4` branch. Make sure you have committed all files (`git status`) then create new branch `week5`
    * Install [bcryptjs](https://www.npmjs.com/package/bcryptjs): `npm i bcryptjs` ([bcrypt](https://www.npmjs.com/package/bcrypt) is another option)
 
 1. Use `wop-ui/ui4` as front-end

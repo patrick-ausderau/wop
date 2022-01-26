@@ -1,4 +1,4 @@
-# Week 3
+# Week 3 - Rest and database
 ## Routing
 1. Study [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 2. During the labs we are going to make our own REST API

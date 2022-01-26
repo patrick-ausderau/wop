@@ -1,4 +1,4 @@
-# Week 1
+# Week 1 - Setup, Node.js basics
 1. Install tools
     * [Webstorm](https://www.jetbrains.com/student/) or
     * [VSCode](https://code.visualstudio.com/) or without Microsoft telemetry [VSCodium](https://vscodium.com/)
