@@ -170,7 +170,7 @@ app.get('/', (req, res) => {
 
 ### Bcrypt
 1. Setup
-   * Continue the app started on week 2. You should be now in `week4` branch. Make sure you have committed all files (`git status`) then create new branch `week5`
+   * Continue the app started on week 3. You should be now in `week4` branch. Make sure you have committed all files (`git status`) then create new branch `week5`
    * Install [bcryptjs](https://www.npmjs.com/package/bcryptjs): `npm i bcryptjs` ([bcrypt](https://www.npmjs.com/package/bcrypt) is another option)
 
 1. Use `wop-ui/ui4` as front-end
@@ -300,7 +300,7 @@ app.get('/', (req, res) => {
 ## Create thumbnails
 1. Use `wop-ui/ui4` as front-end for testing
    * ask mapbox key from the teacher or create your own
-1. Add new folder `thumbnails`, put it in version control; but not its content as you did with [uploads folder](week2.md#middleware)
+1. Add new folder `thumbnails`, put it in version control; but not its content as you did with [uploads folder](week3.md#middleware)
 1. Add to `app.js`:
    ```javascript
    app.use('/thumbnails', express.static('thumbnails'));
@@ -412,7 +412,7 @@ app.get('/', (req, res) => {
    * once your app works on your localhost machine, remember to update all `.js` files in `whatever_public/js/` around line 2 to `const url = 'https://your_ip/app/';`
    * git commit/push on your local machine and pull on server, make sure to be in right folder, e.g.
      ```console
-     $ cd week2
+     $ cd node2
      $ git status
      ```
    * don't upload node_modules (should normally be in `.gitignore`)

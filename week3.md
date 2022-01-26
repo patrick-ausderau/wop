@@ -1,4 +1,4 @@
-# Week 2
+# Week 3
 ## Routing
 1. Study [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 2. During the labs we are going to make our own REST API
@@ -6,13 +6,13 @@
    * This is the first version. Later in this couse some parts will be modified and added.
 3. Setup
    * Navigate to your course folder in terminal or Git Bash
-   * Create `week2` folder to your course folder: `mkdir week2`
-   * Start new git repository to `week2` folder
-   * Add approriate `.gitignore` (if it does not exist) to `week2` folder and commit changes to code regularly
-   * [Download starter files as zip](https://github.com/ilkkamtk/wop-starters/tree/week2-1), extract and copy all files and folders to `week2` folder
+   * Create `node2` folder to your course folder: `mkdir node2`
+   * Start new git repository to `node2` folder
+   * Add approriate `.gitignore` (if it does not exist) to `node2` folder and commit changes to code regularly
+   * [Download starter files as zip](https://github.com/ilkkamtk/wop-starters/tree/week2-1), extract and copy all files and folders to `node2` folder
    * [Download UI files as zip](https://github.com/ilkkamtk/wop-ui)
    * Move `wop-ui` folder to your public_html in shell.metropolia.fi or in your virtual computer. You can rename the folder if you want. This folder is needed later in the course to check access to the REST API.
-   * Run `npm install` in `week2` folder
+   * Run `npm install` in `node2` folder
    * Run `nodemon app.js` or `node app.js` and test in browser: `localhost:3000/cat`
 
 4. Study [Routing](https://expressjs.com/en/guide/routing.html) and [app.METHOD](https://expressjs.com/en/4x/api.html#app.METHOD)
@@ -120,7 +120,7 @@
 
 1. Files are sent in HTTP as [multipart/form-data](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST). Because Express does not handle this type by default you need to use third party middelware like [Multer](https://github.com/expressjs/multer)
    * The second form in `wop-ui/ui1/front.html` is for uploading a file
-   * Add `uploads` folder to `week2` and put the folder in version control; but not its content, e.g.
+   * Add `uploads` folder to `node2` and put the folder in version control; but not its content, e.g.
      ```console
      $ mkdir uploads
      $ touch uploads/.gitkeep
