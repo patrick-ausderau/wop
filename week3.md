@@ -5,13 +5,14 @@
    * [API Documentation](apiDoc-v0.1.md) will show what kind of endpoints, responses etc. our REST API will have
    * This is the first version. Later in this couse some parts will be modified and added.
 3. Setup
+   * [Download UI files as zip](https://github.com/ilkkamtk/wop-ui)
+   * Move `wop-ui` folder to your public_html in shell.metropolia.fi or in your virtual computer. You can rename the folder if you want. This folder is needed later in the course to check access to the REST API.
    * Navigate to your course folder in terminal or Git Bash
    * Create `node2` folder to your course folder: `mkdir node2`
    * Start new git repository to `node2` folder
-   * Add approriate `.gitignore` (if it does not exist) to `node2` folder and commit changes to code regularly
    * [Download starter files as zip](https://github.com/ilkkamtk/wop-starters/tree/week2-1), extract and copy all files and folders to `node2` folder
-   * [Download UI files as zip](https://github.com/ilkkamtk/wop-ui)
-   * Move `wop-ui` folder to your public_html in shell.metropolia.fi or in your virtual computer. You can rename the folder if you want. This folder is needed later in the course to check access to the REST API.
+   * Add approriate `.gitignore` (if it does not exist) to `node2` folder and commit changes to code regularly
+   * Update `package.json` (add yoursefl as author, licence, start script,...)
    * Run `npm install` in `node2` folder
    * Run `nodemon app.js` or `node app.js` and test in browser: `localhost:3000/cat`
 
