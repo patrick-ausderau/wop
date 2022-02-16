@@ -21,8 +21,8 @@
          * password: minimum length 8 characters, at least one capital letter
       * Add cat
          * name: required
-         * birthdate: date, required
-         * weight: number, required
+         * birthdate: date, required, (if you want to do more, JavaScript to set max to today)
+         * weight: number, required, bigger than 0, smaller than 20
          * select owner: required
          * file: required, accept only images (jpg, gif, png)
       * Modify cat:
@@ -39,7 +39,7 @@
          * password: minimum length 8 characters, at least one capital letter
       * Add cat
          * name: required
-         * birthdate: date, required
+         * birthdate: date, required, in the past
          * weight: number, required
          * select owner: required
          * file: required, accept only images (jpg, gif, png)
