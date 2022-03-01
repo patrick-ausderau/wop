@@ -64,7 +64,7 @@
 1. Cookies
    * Create the following routes for GET method:
       * `/setCookie`
-         * recieves a path variable `clr`
+         * receives a path variable `clr`
          * sets a new cookie `color` which gets the value of `clr` path variable
       * `/getCookie`
          * reads the value of `color` cookie and sends it to the client
@@ -86,12 +86,12 @@
          * render `views/secret.pug`
    * Create the following route for POST method:
       * `/login`
-         * recieves `username` and `password` from `req.body`
-         * if recieved `username` and `password` match the username and password variables create session variable `logged` and set it to `true` and [redirect](https://expressjs.com/en/api.html#res.redirect) to `/secret`. Else set session variable `logged` to `false` and redirect to `/form`
+         * receives `username` and `password` from `req.body`
+         * if received `username` and `password` match the username and password variables create session variable `logged` and set it to `true` and [redirect](https://expressjs.com/en/api.html#res.redirect) to `/secret`. Else set session variable `logged` to `false` and redirect to `/form`
       * In `/secret` route check if session variable `logged` is not true, then redirect to `/form`.
       * Open 'Application' tab in Developer Tools to see cookies in browser
       * Test in browser: `localhost:3000/form` and `localhost:3000/secret`
 
 1. Remote server
-    * [Install Educloud virtual computer](virtual_server_install_LAMP_node.md)
-    * deploy your app on the server (note, from home, make sure to use [metropolia vpn](https://vpn.metropolia.fi))
+    * [Install Educloud virtual computer](virtual_server_install_LAMP_node.md) (if not already done)
+    * deploy your 'data validation' version of the app on the server (note, from home, make sure to use [metropolia vpn](https://vpn.metropolia.fi))
