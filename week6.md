@@ -155,7 +155,6 @@ Now we start to make our REST API to follow the [second version of the API Docum
    module.exports = {
      login,
    };
-
    ```
 4. Study [this](https://medium.com/front-end-weekly/learn-using-jwt-with-passport-authentication-9761539c4314#025a) example and add passport local strategy authentication to TODO section
    * the example starts with passport.authenticate...
@@ -222,15 +221,15 @@ Now we start to make our REST API to follow the [second version of the API Docum
 
 11. Test also with the UI in folder `wop-ui/ui3`
    * UI3 checks the token so add the following to userRoute and userController
-   ```
+   ```javascript
    // userController.js
    const checkToken = (req, res, next) => {
-    if (!req.user) {
-      next(new Error('token not valid'));
-    } else {
-      res.json({ user: req.user });
-    }
-  };
+     if (!req.user) {
+       next(new Error('token not valid'));
+     } else {
+       res.json({ user: req.user });
+     }
+   };
 
    // userRoute.js
    router.get('/token', checkToken);

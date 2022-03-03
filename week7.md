@@ -297,7 +297,7 @@ app.get('/', (req, res) => {
    * Create a new user by using the register form in `wop-ui/ui4`
    * Test logout button and login again
 
-## Create thumbnails
+## Create thumbnails (Optional)
 1. Use `wop-ui/ui4` as front-end for testing
    * ask mapbox key from the teacher or create your own
 1. Add new folder `thumbnails`, put it in version control; but not its content as you did with [uploads folder](week3.md#middleware)
@@ -322,7 +322,7 @@ app.get('/', (req, res) => {
 1. Complete TODO in the code above. Call `makeThumbnail` function in `catController` before you add the cat to database.
 1. Use UI in `wop-ui/ui4` and upload a new cat
 
-## Metadata from image
+## Metadata from image (Optional)
 1. Study [Creating a Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Creating_a_Promise)
 1. Take a couple of photos with your phone. Make sure that location services are enabled so that the gps data is stored in the images.
 1. Email the images to yourself
@@ -417,13 +417,13 @@ app.get('/', (req, res) => {
      ```
    * don't upload node_modules (should normally be in `.gitignore`)
    * after pulling (if any conflict, just delete the conflicting files (e.g. `$ rm pacakge-lock.js`) and pull again), make sure to be in right branch (`$ git branch`), checkout if not, then run `$ npm install`
-   * check that `thumbnails` folder got created with the git pull (in case it is in `.gitignore`, then create it `$ mkdir thumbnails`)
+   * (for otional thumbnails task) check that `thumbnails` folder got created with the git pull (in case it is in `.gitignore`, then create it `$ mkdir thumbnails`)
    * make sure that database is up to date (`$ mysql -u dbuser -p catdb` (adapt your database user and database name))
      ```sql
-     ALTER TABLE wop_cat ADD coords text;
-     UPDATE wop_user SET password = 'SomeHashOfThePassword...' WHERE user_id = 2; # and same for jane (user_id = 3)
+     ALTER TABLE wop_cat ADD coords text; -- (if optional exif task)
+     UPDATE wop_user SET password = 'SomeHashOfThePassword...' WHERE user_id = 2; -- and same for john (user_id = 3);
      ```
-   * edit .env (add the `PROXY_PASS` and `NODE_ENV`) and run `node app.js` or with [pm2](https://www.npmjs.com/package/pm2) `pm2 restart app.js`
+   * edit .env (add the `PROXY_PASS`, `JWT_SECRET` and `NODE_ENV`) and run `node app.js` or with [pm2](https://www.npmjs.com/package/pm2) `pm2 restart app.js`
    * visit `http://your_ip/~wantedUsername/wop-ui/ui4`, test that it redirects to https and that you can login and add cats
 
 ### Single Page App

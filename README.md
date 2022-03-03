@@ -28,4 +28,3 @@
 * [Week 7](week7.md)
    * Security
    * Other 3rd party libraries
-* Week 8 (To be Defined later)
