@@ -253,7 +253,7 @@ If s/he “only” crack your user account, s/he will be sandboxed (and can do l
       Note: database root user is not operating system root user! Avoid same password!
    1. Connect to your database:
       ```console
-      $ mysql -u root -p
+      $ sudo mysql -u root -p
       ```
       and create a database and a user with privileges on it:
         ```sql
